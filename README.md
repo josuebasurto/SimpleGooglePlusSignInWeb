@@ -1,4 +1,4 @@
-SimpleGooglePlusSignInWeb
+Simple Google Plus Sign In Web
 =========================
 
 This is a super simple google plus sign in for google plus.
