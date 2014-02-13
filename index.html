@@ -4,5 +4,17 @@
 		<title>Google + Sign In Demo</title>
 	</head>
 	<body>
+		<span id="signinButton">
+			<!--Check for you API KEY here! https://cloud.google.com/console/project-->
+			<span class="g-signin" 
+				data-callback="signinCallback" 
+				data-clientid="APIKEY" 
+				data-cookiepolicy="single_host_origin" 
+				data-requestvisibleactions="http://schemas.google.com/AddActivity" 
+				data-scope="https://www.googleapis.com/auth/plus.login"
+				data-apppackagename="com.garitas.tijuana"></span>
+		</span>
+		<script src="gplussigninlogic.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</body>
 </html>
